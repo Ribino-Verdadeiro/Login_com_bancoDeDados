@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, white);
+}
+#quadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 10px;
+
+}
+#quadrado2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 10px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#submit{
+    width: 150px;
+    transition: 1s;
+}
+#submit:hover{
+    scale: 1.2;
+}
+.login{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quadrado:hover {
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+#quadrado2:hover {
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.text-danger{
+    color: white;
+    font-weight: bold;
+}
